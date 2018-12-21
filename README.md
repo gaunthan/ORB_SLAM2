@@ -70,7 +70,7 @@ We use [OpenCV](http://opencv.org) to manipulate images and features. Dowload an
 ## Eigen3
 Required by g2o (see below). Download and install instructions can be found at: http://eigen.tuxfamily.org. **Required at least 3.1.0**.
 
-According to #576, installing the latest Eigen3 may not be a good idea. Try 3.3.4 if segment fault occured while running the examples.
+According to [#576](https://github.com/raulmur/ORB_SLAM2/issues/576), installing the latest Eigen3 may not be a good idea. Try 3.3.4 if segment fault occured while running the examples.
 
 ## DBoW2 and g2o (Included in Thirdparty folder)
 We use modified versions of the [DBoW2](https://github.com/dorian3d/DBoW2) library to perform place recognition and [g2o](https://github.com/RainerKuemmerle/g2o) library to perform non-linear optimizations. Both modified libraries (which are BSD) are included in the *Thirdparty* folder.
