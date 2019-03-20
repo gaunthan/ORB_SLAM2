@@ -106,8 +106,10 @@ int main(int argc, char **argv)
             usleep((T-ttrack)*1e6);
     }
 
+    cout << "Stopping all threads..." << endl;
     // Stop all threads
     SLAM.Shutdown();
+    cout << "done" << endl;
 
     // Tracking time statistics
     sort(vTimesTrack.begin(),vTimesTrack.end());
